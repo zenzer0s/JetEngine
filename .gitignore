@@ -23,3 +23,10 @@ go.work.sum
 
 # env file
 .env
+
+# Configuration files (do not commit secrets)
+configs/*.yaml
+configs/*.yml
+
+# BadgerDB data directory
+badger_data/
